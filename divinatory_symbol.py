@@ -61,7 +61,8 @@ class DivinatorySymbol:
     def generateTrigramLines(self):
         for index in range(6):
             rand = random.randint(6, 9)
-            self.trigramLines[6-index] = TrigramLine.intToTrigramLine(rand)
+            self.trigramLines[6 - index -
+                              1] = TrigramLine.intToTrigramLine(rand)
 
     def _debugPrintConsole(self):
         for index, element in enumerate(self.trigramLines):

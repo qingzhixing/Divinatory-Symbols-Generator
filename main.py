@@ -2,7 +2,9 @@ from divinatory_symbol import *
 
 
 def main():
-    DivinatorySymbol()._debugPrintConsole()
+    divinatorySymbol = DivinatorySymbol()
+    divinatorySymbol.generateTrigramLines()
+    divinatorySymbol._debugPrintConsole()
 
 
 if __name__ == "__main__":
