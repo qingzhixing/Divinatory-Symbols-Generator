@@ -1,6 +1,6 @@
 # Divinatory-Symbols-Generator
 
-💾 基于Python的周易卦相生成
+💾 基于Python的周易卦象生成
 
 ## 生成算法
 
